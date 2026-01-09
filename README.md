@@ -139,7 +139,158 @@ Registro 1:
   Frequência Semanal: 5x por semana
   Meta: ✅ Atingida
 
-[... outros registros ...]
+
+Registro 2:
+  Aluno: Carlos Souza
+  Modalidade: Crossfit
+  Duração: 60 minutos
+  Calorias Queimadas: 520 kcal
+  Frequência Semanal: 4x por semana
+  Meta: ✅ Atingida
+
+Registro 3:
+  Aluno: Beatriz Lima
+  Modalidade: Yoga
+  Duração: 45 minutos
+  Calorias Queimadas: 180 kcal
+  Frequência Semanal: 3x por semana
+  Meta: ❌ Não atingida
+
+Registro 4:
+  Aluno: Daniel Costa
+  Modalidade: Musculação
+  Duração: 75 minutos
+  Calorias Queimadas: 380 kcal
+  Frequência Semanal: 4x por semana
+  Meta: ✅ Atingida
+
+Registro 5:
+  Aluno: Eduarda Martins
+  Modalidade: Spinning
+  Duração: 50 minutos
+  Calorias Queimadas: 420 kcal
+  Frequência Semanal: 3x por semana
+  Meta: ✅ Atingida
+
+Registro 6:
+  Aluno: Fernando Alves
+  Modalidade: Natação
+  Duração: 60 minutos
+  Calorias Queimadas: 350 kcal
+  Frequência Semanal: 2x por semana
+  Meta: ❌ Não atingida
+
+Registro 7:
+  Aluno: Gabriela Santos
+  Modalidade: Crossfit
+  Duração: 65 minutos
+  Calorias Queimadas: 580 kcal
+  Frequência Semanal: 5x por semana
+  Meta: ✅ Atingida
+
+Registro 8:
+  Aluno: Hugo Ferreira
+  Modalidade: Musculação
+  Duração: 80 minutos
+  Calorias Queimadas: 420 kcal
+  Frequência Semanal: 4x por semana
+  Meta: ✅ Atingida
+
+Registro 9:
+  Aluno: Isabela Rocha
+  Modalidade: Yoga
+  Duração: 50 minutos
+  Calorias Queimadas: 200 kcal
+  Frequência Semanal: 2x por semana
+  Meta: ❌ Não atingida
+
+Registro 10:
+  Aluno: João Pereira
+  Modalidade: Spinning
+  Duração: 45 minutos
+  Calorias Queimadas: 390 kcal
+  Frequência Semanal: 3x por semana
+  Meta: ✅ Atingida
+
+Registro 11:
+  Aluno: Karen Oliveira
+  Modalidade: Natação
+  Duração: 70 minutos
+  Calorias Queimadas: 410 kcal
+  Frequência Semanal: 4x por semana
+  Meta: ✅ Atingida
+
+Registro 12:
+  Aluno: Lucas Barbosa
+  Modalidade: Crossfit
+  Duração: 55 minutos
+  Calorias Queimadas: 500 kcal
+  Frequência Semanal: 4x por semana
+  Meta: ✅ Atingida
+
+Registro 13:
+  Aluno: Mariana Dias
+  Modalidade: Musculação
+  Duração: 85 minutos
+  Calorias Queimadas: 440 kcal
+  Frequência Semanal: 5x por semana
+  Meta: ✅ Atingida
+
+Registro 14:
+  Aluno: Nicolas Araujo
+  Modalidade: Yoga
+  Duração: 40 minutos
+  Calorias Queimadas: 170 kcal
+  Frequência Semanal: 2x por semana
+  Meta: ❌ Não atingida
+
+Registro 15:
+  Aluno: Olivia Mendes
+  Modalidade: Spinning
+  Duração: 55 minutos
+  Calorias Queimadas: 460 kcal
+  Frequência Semanal: 4x por semana
+  Meta: ✅ Atingida
+
+Registro 16:
+  Aluno: Pedro Cardoso
+  Modalidade: Natação
+  Duração: 65 minutos
+  Calorias Queimadas: 380 kcal
+  Frequência Semanal: 3x por semana
+  Meta: ✅ Atingida
+
+Registro 17:
+  Aluno: Quiteria Nunes
+  Modalidade: Musculação
+  Duração: 70 minutos
+  Calorias Queimadas: 360 kcal
+  Frequência Semanal: 3x por semana
+  Meta: ❌ Não atingida
+
+Registro 18:
+  Aluno: Rafael Castro
+  Modalidade: Crossfit
+  Duração: 60 minutos
+  Calorias Queimadas: 530 kcal
+  Frequência Semanal: 5x por semana
+  Meta: ✅ Atingida
+
+Registro 19:
+  Aluno: Sofia Teixeira
+  Modalidade: Yoga
+  Duração: 55 minutos
+  Calorias Queimadas: 220 kcal
+  Frequência Semanal: 3x por semana
+  Meta: ✅ Atingida
+
+Registro 20:
+  Aluno: Thiago Vieira
+  Modalidade: Spinning
+  Duração: 50 minutos
+  Calorias Queimadas: 430 kcal
+  Frequência Semanal: 4x por semana
+  Meta: ✅ Atingida
 
 ==================================================
 📈 MÉTRICAS DE ACÚMULO:
