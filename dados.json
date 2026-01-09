@@ -1,0 +1,162 @@
+[
+    {
+        "aluno": "Ana Silva",
+        "modalidade": "Musculação",
+        "duracao_minutos": 90,
+        "calorias_queimadas": 450,
+        "meta_atingida": true,
+        "frequencia_semanal": 5
+    },
+    {
+        "aluno": "Carlos Souza",
+        "modalidade": "Crossfit",
+        "duracao_minutos": 60,
+        "calorias_queimadas": 520,
+        "meta_atingida": true,
+        "frequencia_semanal": 4
+    },
+    {
+        "aluno": "Beatriz Lima",
+        "modalidade": "Yoga",
+        "duracao_minutos": 45,
+        "calorias_queimadas": 180,
+        "meta_atingida": false,
+        "frequencia_semanal": 3
+    },
+    {
+        "aluno": "Daniel Costa",
+        "modalidade": "Musculação",
+        "duracao_minutos": 75,
+        "calorias_queimadas": 380,
+        "meta_atingida": true,
+        "frequencia_semanal": 4
+    },
+    {
+        "aluno": "Eduarda Martins",
+        "modalidade": "Spinning",
+        "duracao_minutos": 50,
+        "calorias_queimadas": 420,
+        "meta_atingida": true,
+        "frequencia_semanal": 3
+    },
+    {
+        "aluno": "Fernando Alves",
+        "modalidade": "Natação",
+        "duracao_minutos": 60,
+        "calorias_queimadas": 350,
+        "meta_atingida": false,
+        "frequencia_semanal": 2
+    },
+    {
+        "aluno": "Gabriela Santos",
+        "modalidade": "Crossfit",
+        "duracao_minutos": 65,
+        "calorias_queimadas": 580,
+        "meta_atingida": true,
+        "frequencia_semanal": 5
+    },
+    {
+        "aluno": "Hugo Ferreira",
+        "modalidade": "Musculação",
+        "duracao_minutos": 80,
+        "calorias_queimadas": 420,
+        "meta_atingida": true,
+        "frequencia_semanal": 4
+    },
+    {
+        "aluno": "Isabela Rocha",
+        "modalidade": "Yoga",
+        "duracao_minutos": 50,
+        "calorias_queimadas": 200,
+        "meta_atingida": false,
+        "frequencia_semanal": 2
+    },
+    {
+        "aluno": "João Pereira",
+        "modalidade": "Spinning",
+        "duracao_minutos": 45,
+        "calorias_queimadas": 390,
+        "meta_atingida": true,
+        "frequencia_semanal": 3
+    },
+    {
+        "aluno": "Karen Oliveira",
+        "modalidade": "Natação",
+        "duracao_minutos": 70,
+        "calorias_queimadas": 410,
+        "meta_atingida": true,
+        "frequencia_semanal": 4
+    },
+    {
+        "aluno": "Lucas Barbosa",
+        "modalidade": "Crossfit",
+        "duracao_minutos": 55,
+        "calorias_queimadas": 500,
+        "meta_atingida": true,
+        "frequencia_semanal": 4
+    },
+    {
+        "aluno": "Mariana Dias",
+        "modalidade": "Musculação",
+        "duracao_minutos": 85,
+        "calorias_queimadas": 440,
+        "meta_atingida": true,
+        "frequencia_semanal": 5
+    },
+    {
+        "aluno": "Nicolas Araujo",
+        "modalidade": "Yoga",
+        "duracao_minutos": 40,
+        "calorias_queimadas": 170,
+        "meta_atingida": false,
+        "frequencia_semanal": 2
+    },
+    {
+        "aluno": "Olivia Mendes",
+        "modalidade": "Spinning",
+        "duracao_minutos": 55,
+        "calorias_queimadas": 460,
+        "meta_atingida": true,
+        "frequencia_semanal": 4
+    },
+    {
+        "aluno": "Pedro Cardoso",
+        "modalidade": "Natação",
+        "duracao_minutos": 65,
+        "calorias_queimadas": 380,
+        "meta_atingida": true,
+        "frequencia_semanal": 3
+    },
+    {
+        "aluno": "Quiteria Nunes",
+        "modalidade": "Musculação",
+        "duracao_minutos": 70,
+        "calorias_queimadas": 360,
+        "meta_atingida": false,
+        "frequencia_semanal": 3
+    },
+    {
+        "aluno": "Rafael Castro",
+        "modalidade": "Crossfit",
+        "duracao_minutos": 60,
+        "calorias_queimadas": 530,
+        "meta_atingida": true,
+        "frequencia_semanal": 5
+    },
+    {
+        "aluno": "Sofia Teixeira",
+        "modalidade": "Yoga",
+        "duracao_minutos": 55,
+        "calorias_queimadas": 220,
+        "meta_atingida": true,
+        "frequencia_semanal": 3
+    },
+    {
+        "aluno": "Thiago Vieira",
+        "modalidade": "Spinning",
+        "duracao_minutos": 50,
+        "calorias_queimadas": 430,
+        "meta_atingida": true,
+        "frequencia_semanal": 4
+    }
+]

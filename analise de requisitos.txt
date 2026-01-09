@@ -1,0 +1,515 @@
+🎯 Atividade de Análise de Dados em Python - 
+Iniciantes 
+
+📌 OBJETIVO DA ATIVIDADE 
+
+Criar um programa em Python sequencial e simples que analisa dados gerados 
+por Inteligência Artificial. A dupla deverá demonstrar capacidade de: 
+
+1. Ler e processar dados em formato JSON 
+2. Realizar cálculos e análises básicas 
+3. Extrair informações significativas (insights) dos dados 
+4. Organizar e apresentar resultados de forma clara 
+
+
+ 
+
+👥 FORMATO DE TRABALHO 
+
+● Em duplas (definidas pelo professor) 
+● Tema livre: escolham algo do interesse de ambos 
+● Tempo: [número] aulas para desenvolvimento 
+
+
+ 
+
+📊 ETAPAS DA ATIVIDADE 
+
+ETAPA 1: GERAR OS DADOS (com IA) 
+
+O que fazer: 
+
+1. Escolham um tema (exemplos abaixo) 
+2. Usem uma IA (ChatGPT, Copilot, Gemini, etc.) 
+3. Peçam para gerar dados fictícios em formato JSON 
+
+
+Temas sugeridos: 
+
+
+● ✅ Vendas de uma loja (mais fácil para iniciantes) 
+● ✅ Notas de alunos em uma turma 
+● ✅ Horas de estudo por matéria 
+● ✅ Filmes/séries assistidos 
+● ✅ Exercícios físicos semanais 
+● ✅ Gastos mensais com alimentação 
+
+
+Prompt exemplo (vendas): 
+
+text 
+
+"Crie 20 registros de vendas fictícias em formato JSON. 
+
+Cada registro deve ter: 
+
+- vendedor (ex: 'Ana', 'Carlos', 'Beatriz') 
+
+- produto (ex: 'notebook', 'mouse', 'teclado') 
+
+- valor (número entre 50 e 3000) 
+
+- meta_atingida (true ou false) 
+
+- quantidade (1 a 5) 
+
+ 
+
+Deixe o JSON pronto para ser salvo em arquivo." 
+
+Entregável desta etapa: Arquivo dados.json com seus dados 
+
+ 
+
+ETAPA 2: CRIAR O PROGRAMA PYTHON 
+
+O que o programa DEVE FAZER: 
+
+1️
+⃣ LEITURA DOS DADOS (obrigatório) 
+
+python 
+
+
+# ------------------------------------------------- 
+
+# 1. LER OS DADOS DO ARQUIVO JSON 
+
+# ------------------------------------------------- 
+
+import json 
+
+ 
+
+# Abrir e ler o arquivo JSON usando with open 
+
+with open('dados.json', 'r', encoding='utf-8') as arquivo: 
+
+ dados = json.load(arquivo) 
+
+ 
+
+print(f"\n✅ Dados carregados com sucesso!") 
+
+print(f"📊 Total de registros: {len(dados)}") 
+
+ 
+
+2️
+⃣ EXIBIR OS DADOS COMPLETOS (obrigatório) 
+
+● Mostrar TODOS os registros do arquivo 
+● Cada registro deve aparecer organizado, com seus campos 
+● Exemplo de como deve aparecer na tela: 
+
+
+text 
+
+📋 LISTA COMPLETA DOS DADOS: 
+
+---------------------------------------- 
+
+Registro 1: 
+
+ Vendedor: Ana 
+
+
+ Produto: Notebook 
+
+ Valor: R$ 2500.00 
+
+ Quantidade: 1 
+
+ Meta: ✅ Atingida 
+
+ 
+
+Registro 2: 
+
+ Vendedor: Carlos 
+
+ Produto: Mouse 
+
+ Valor: R$ 89.90 
+
+ Quantidade: 2 
+
+ Meta: ❌ Não atingida 
+
+3️
+⃣ CALCULAR E EXIBIR MÉTRICAS (obrigatório) 
+
+A) 3 MÉTRICAS DE ACÚMULO (exemplo para vendas): 
+
+text 
+
+📈 MÉTRICAS DE ACÚMULO: 
+
+---------------------------------------- 
+
+1. SOMA TOTAL: R$ 15.847,90 
+
+ (soma de todos os valores) 
+
+ 
+
+2. MÉDIA POR VENDA: R$ 792,40 
+
+
+ (soma total ÷ quantidade de vendas) 
+
+ 
+
+3. TICKET MÉDIO: R$ 792,40 
+
+ (valor médio por transação) 
+
+B) 1 CONTAGEM CONDICIONAL (obrigatório): 
+
+text 
+
+🎯 CONTAGEM CONDICIONAL: 
+
+---------------------------------------- 
+
+VENDAS QUE ATINGIRAM A META: 
+
+• Quantidade: 14 de 20 vendas 
+
+• Percentual: 70% das vendas 
+
+C) 1 ACÚMULO POR CATEGORIA (obrigatório): 
+
+text 
+
+👥 TOTAL POR CATEGORIA: 
+
+---------------------------------------- 
+
+TOTAL DE VENDAS POR VENDEDOR: 
+
+• Ana: R$ 8.500,00 
+
+• Carlos: R$ 4.200,00 
+
+• Beatriz: R$ 3.147,90 
+
+4️
+⃣ EXIBIR PERCEPÇÕES/INSIGHTS (obrigatório) 
+
+text 
+
+
+💡 PERCEPÇÕES OBTIDAS: 
+
+---------------------------------------- 
+
+Com base na análise dos dados, percebemos que: 
+
+ 
+
+1️
+⃣ A Ana foi a vendedora que mais faturou, 
+
+ representando 53% do total de vendas. 
+
+ 
+
+2️
+⃣ 70% das vendas atingiram a meta, 
+
+ mas apenas 40% dos produtos mais baratos bateram a meta. 
+
+ 
+
+3️
+⃣ O produto "Notebook" teve o maior valor médio, 
+
+ mas foi vendido apenas 3 vezes. 
+
+ 
+
+ETAPA 3: ORGANIZAR A ENTREGA 
+
+O que deve ser ENTREGUE no GitHub: 
+
+text 
+
+📂 repositorio-dupla/ 
+
+│ 
+
+├── 📄 analise_dados.py (código Python completo) 
+
+│ 
+
+
+├── 📄 dados.json (dados gerados pela IA) 
+
+│ 
+
+└── 📄 README.md (documentação do projeto) 
+
+Conteúdo OBRIGATÓRIO do README.md: 
+
+markdown 
+
+# Projeto de Análise de Dados 
+
+ 
+
+## 👤 Integrantes 
+
+- Nome completo 1 
+
+- Nome completo 2 
+
+ 
+
+## 🎯 Tema Escolhido 
+
+[Descreva o tema escolhido] 
+
+ 
+
+## 🤖 Geração dos Dados 
+
+- **IA utilizada:** [ChatGPT/Copilot/outra] 
+
+- **Prompt usado:** [COLE AQUI O TEXTO EXATO QUE USARAM] 
+
+ 
+
+## 🚀 Como Executar o Programa 
+
+1. Baixe os arquivos `analise_dados.py` e `dados.json` 
+
+2. Coloque-os na mesma pasta 
+
+
+3. Execute no terminal: `python analise_dados.py` 
+
+ 
+
+## 📊 O que o Programa Exibe 
+
+[Descreva brevemente cada seção que aparece na tela] 
+
+ 
+
+## 💡 Percepções Obtidas 
+
+**COM BASE NOS NOSSOS DADOS, DESCobrimos que:** 
+
+ 
+
+1. **Primeira percepção importante:** 
+
+ [Explique com detalhes o que descobriram] 
+
+ 
+
+2. **Segunda percepção importante:** 
+
+ [Explique com detalhes o que descobriram] 
+
+ 
+
+3. **Terceira percepção importante:** 
+
+ [Explique com detalhes o que descobriram] 
+
+ 
+
+## 📚 O que Aprendemos 
+
+- [Liste 2-3 coisas que aprenderam sobre Python] 
+
+- [Liste 2-3 coisas que aprenderam sobre análise de dados] 
+
+
+-[Desafios que superaram] 
+
+ 
+
+ 
+
+🚨 ATENÇÃO - PONTOS IMPORTANTES 
+
+O QUE É OBRIGATÓRIO EXIBIR NA TELA: 
+
+1. ✅ Mensagem inicial com nome da dupla/tema 
+2. ✅ Lista completa dos dados (todos os registros) 
+3. ✅ 3 métricas de acumulação (ex: soma, média, ticket médio) 
+4. ✅ 1 contagem condicional (ex: vendas com meta atingida) 
+5. ✅ 1 acumulação por categoria (ex: total por vendedor) 
+6. ✅ 3 percepções/insights (baseadas nos cálculos anteriores) 
+7. ✅ Mensagem final de conclusão 
+
+
+O QUE É OBRIGATÓRIO ENTREGAR: 
+
+1. ✅ Arquivo analise_dados.py (código Python) 
+2. ✅ Arquivo dados.json (dados usados) 
+3. ✅ Arquivo README.md (com as seções especificadas) 
+
+
+O QUE NÃO É PERMITIDO: 
+
+● ❌ Usar funções (def) - deve ser código sequencial 
+● ❌ Usar try/except - tratamento de erros avançado 
+● ❌ Copiar código de outras duplas 
+● ❌ Entregar sem os 3 arquivos obrigatórios 
+
+
+ 
+
+🆘 DICAS PARA O SUCESSO 
+
+
+Antes de começar: 
+
+1. Escolham um tema simples - vendas é o mais fácil 
+2. Testem o JSON - coloquem no ChatGPT para validar 
+3. Dividam as tarefas: 
+○ Um cuida do código Python 
+○ Outro cuida dos dados e documentação 
+
+
+
+
+
+Durante o desenvolvimento: 
+
+1. Testem passo a passo: 
+○ Primeiro: só leiam e exibam os dados 
+○ Segundo: calculem uma métrica 
+○ Terceiro: calculem as demais 
+
+
+
+2. Use print() para debug - vejam o que está acontecendo 
+3. Salvem frequentemente - não percam o trabalho 
+
+
+Para as percepções: 
+
+1. Olhem os números calculados - as percepções devem vir deles 
+2. Sejam específicos - não digam só "teve muitas vendas" 
+3. Conectem ideias - ex: "o vendedor X vendeu mais porque..." 
+
+
+ 
+
+🎓 EXEMPLO DE SAÍDA ESPERADA 
+
+text 
+
+================================================== 
+
+ANÁLISE DE DADOS - DUPLA: João e Maria 
+
+TEMA: Vendas da Loja TechCenter 
+
+================================================== 
+
+
+ 
+
+✅ Dados carregados: 20 registros encontrados 
+
+ 
+
+📋 DADOS COMPLETOS: 
+
+---------------------------------------- 
+
+[Registro 1... Registro 20 detalhados] 
+
+ 
+
+📈 MÉTRICAS CALCULADAS: 
+
+---------------------------------------- 
+
+• Soma total: R$ 15.847,90 
+
+• Média por venda: R$ 792,40 
+
+• Ticket médio: R$ 792,40 
+
+ 
+
+🎯 CONTAGEM CONDICIONAL: 
+
+---------------------------------------- 
+
+• Vendas com meta atingida: 14/20 (70%) 
+
+ 
+
+👥 ACÚMULO POR CATEGORIA: 
+
+---------------------------------------- 
+
+• Ana: R$ 8.500,00 
+
+
+• Carlos: R$ 4.200,00 
+
+• Beatriz: R$ 3.147,90 
+
+ 
+
+💡 PERCEPÇÕES OBTIDAS: 
+
+---------------------------------------- 
+
+1. A vendedora Ana foi responsável por 53% do total... 
+
+2. Apenas 30% dos produtos abaixo de R$ 100 atingiram... 
+
+3. O produto mais caro (notebook) teve apenas 3 vendas... 
+
+ 
+
+✅ ANÁLISE CONCLUÍDA! 
+
+================================================== 
+
+ 
+
+❓ DÚVIDAS FREQUENTES 
+
+Q: E se meu JSON não abrir? 
+R: Testem no site jsonlint.com - provavelmente tem vírgula ou aspas erradas 
+
+Q: Posso mudar os nomes dos campos? 
+R: Sim, mas ajustem o código para usar os mesmos nomes 
+
+Q: Quantos registros preciso ter? 
+R: Entre 15 e 30 é um bom número 
+
+Q: E se não conseguir alguma parte? 
+R: Façam o que conseguirem e expliquem no README o que não deu certo 
+
+ 
+
+
+Boa sorte no projeto! Lembrem-se: o importante é aprender fazendo! 🚀✨ 
+
+Entrega final: Link do GitHub 
+
+ 
+
+
